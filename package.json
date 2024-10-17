@@ -8,6 +8,7 @@
   "name": "gitweb",
   "version": "1.0.0",
   "main": "index.js",
+  "homepage": "https://pearpixel.github.io",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
