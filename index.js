@@ -14,4 +14,3 @@ function generate_header(element)
 
 const hwl = document.getElementById('root');
 generate_header(hwl);
-hwl.innerHTML = 'Hello world';
