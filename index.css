@@ -1,3 +1,6 @@
+#navigator {
+  display: inline;
+}
 .bordered_element {
   border: 2px solid rgb(116, 114, 114);
   border-radius: 2px;

@@ -1,9 +1,10 @@
 const headeritems = [{text:"c/c++"}]
 function generate_header(element) 
 {
-  const navigator = document.createElement('head');
+  const navigator = document.createElement('div');
+  navigator.id = "navigator";
 
-  const elemes = document.createElement('navelems');
+  const elemes = document.createElement('div');
   const title = document.createElement('h1');
   title.textContent = "dendan";
 
