@@ -10,6 +10,8 @@ function generate_header(element)
     item.textContent = headeritems[i].text;
     header.appendChild(item);
   }
+
+  element.appendChild(header);
 }
 
 const hwl = document.getElementById('root');
