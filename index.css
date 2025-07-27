@@ -1,0 +1,5 @@
+.bordered_element {
+  border: 2px solid rgb(116, 114, 114);
+  border-radius: 2px;
+  box-shadow:  1px 1px 3px yellow, 0 0 0.2em white, 0 0 0.7em black
+}

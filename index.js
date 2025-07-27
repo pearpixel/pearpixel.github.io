@@ -1,17 +1,22 @@
 const headeritems = [{text:"c/c++"}]
 function generate_header(element) 
 {
-  const header = document.createElement('header');
+  const navigator = document.createElement('head');
+
+  const elemes = document.createElement('navelems');
   const title = document.createElement('h1');
   title.textContent = "dendan";
 
   for(let i = 0; i < headeritems.length; i++) {
     const item = document.createElement('div');
     item.textContent = headeritems[i].text;
-    header.appendChild(item);
+    item.className = "bordered_element";
+    elemes.appendChild(item);
   }
 
-  element.appendChild(header);
+  navigator.appendChild(title);
+  navigator.appendChild(elemes);
+  element.appendChild(navigator);
 }
 
 const hwl = document.getElementById('root');
